@@ -1,0 +1,16 @@
+Steps to use:
+1) One of the computers can act as the server by running the server.py file.
+
+2) You can connect to the server using the client.py file. When you run the file, it will launch a console window    which looks like:
+   Enter host:
+   Enter port:
+   
+   Here, host is the IP (orIPv4/IPv6) address of the computer in which the server.py file is running. The port, by   
+   default is 33000. but you can change it by editing the server.py at line no. 48:
+   PORT = <your preferred port number>
+
+3) Once you have entered the required info, a window will popup which will ask for your name.
+
+4) Once you enter your name and press Enter, you would have joined the chat.
+
+*** INFO:You may be asked to allow your firewall to let this app pass through, but that may occur only in rare          cases.
